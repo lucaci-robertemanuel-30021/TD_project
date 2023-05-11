@@ -48,6 +48,34 @@
           {{ currentDevice.description }}
         </div>
         <div>
+          <label><strong>Price:</strong></label>
+          {{ currentDevice.price }}
+        </div>
+        <div>
+          <label><strong>Brand:</strong></label>
+          {{ currentDevice.brand }}
+        </div>
+        <div>
+          <label><strong>Condition:</strong></label>
+          {{ currentDevice.condition }}
+        </div>
+        <div>
+          <label><strong>Available:</strong></label>
+          {{ currentDevice.available }}
+        </div>
+        <div>
+          <label><strong>In stock:</strong></label>
+          {{ currentDevice.in_stock }}
+        </div>
+        <div>
+          <label><strong>Warranty:</strong></label>
+          {{ currentDevice.warranty }}
+        </div>
+        <div>
+          <label><strong>Delivery options:</strong></label>
+          {{ currentDevice.delivery_options }}
+        </div>
+        <div>
           <label><strong>Status:</strong></label>
           {{ currentDevice.published ? "Published" : "Pending" }}
         </div>

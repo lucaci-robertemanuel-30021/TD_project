@@ -16,6 +16,13 @@ exports.create = (req, res) => {
   const device = {
     title: req.body.title,
     description: req.body.description,
+    price: req.body.price,
+    brand: req.body.brand,
+    condition: req.body.condition,
+    available: req.body.available,
+    in_stock: req.body.in_stock,
+    warranty: req.body.warranty,
+    delivery_options: req.body.delivery_options,
     published: req.body.published ? req.body.published : false
   };
 
