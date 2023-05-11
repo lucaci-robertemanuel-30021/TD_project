@@ -19,6 +19,7 @@
         </div>
       </div>
     </div>
+    
     <div class="col-md-6">
       <h4>Devices List</h4>
       <ul class="list-group">
