@@ -4,7 +4,7 @@
       <router-link to="/" class="navbar-brand">Crypto</router-link>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link to="/tutorials" class="nav-link">Devices</router-link>
+          <router-link to="/devices" class="nav-link">Devices</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/add" class="nav-link">Add</router-link>
